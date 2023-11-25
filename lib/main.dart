@@ -7,6 +7,7 @@ import 'package:prj_wisatacandisi51/widgets/home_screen.dart';
 import 'package:prj_wisatacandisi51/widgets/profile_screen.dart';
 import 'package:prj_wisatacandisi51/widgets/search_screen.dart';
 import 'package:prj_wisatacandisi51/widgets/signIn_screen.dart';
+import 'package:prj_wisatacandisi51/widgets/signUp_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +41,7 @@ class _MyAppState extends State<MyApp> {
         ),
         useMaterial3: true,
       ),
-      home: MainScreen(),
+      home: SignUpScreen(),
       //HomeScreen()
       //SearchScreen(),
       //SignInScreen()
